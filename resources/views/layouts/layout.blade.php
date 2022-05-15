@@ -22,7 +22,7 @@
 
 <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
-<body>
+<body class="m-auto" style="width:850px">
 {{-- 共通ヘッダー --}}
 @include('layouts.parts.header')
 

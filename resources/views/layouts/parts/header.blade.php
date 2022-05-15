@@ -1,5 +1,4 @@
-<header>
-    <p class="h2 text-center">Safe Reply（セーフリプライ）</p>
-    <p class="h5 text-center">～迷惑電話、迷惑訪問撃退ボイス～</p>
+<header class="w-100">
+    <p class="h2 text-center"><img src="{{ asset('/img/header/logo.png') }}" class="w-100"></p>
     <hr>
 </header>
