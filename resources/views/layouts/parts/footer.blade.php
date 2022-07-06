@@ -1,5 +1,5 @@
-<footer class="text-muted py-5">
-    <div class="container">
-		<p class="mb-0">footer</p>
+<footer class="text-muted py-1">
+    <div class="container text-center">
+		<p class="mb-0">&copy; 2022～{{date('Y')}} Safe Reply</p>
     </div>
 </footer>

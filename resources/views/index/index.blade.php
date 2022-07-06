@@ -1,58 +1,55 @@
 @extends('layouts.layout')
+<link href="{{ asset('/css/index/index.css') }}" rel="stylesheet" type="text/css" />
 @section('contents')
-<!-- サイトツアー -->
-<script src="./js/anno/voice.js" type="text/javascript"></script>
-<!-- メイン処理JS -->
-<script src="./js/voice/main.js" type="text/javascript"></script>
+<div class="container position-relative">
+	<div class="container main-mask position-absolute top-0 start-0">
+		<p class="main-title"><img src="{{ asset('/img/main/title_logo.png') }}" alt="" srcset="" class="w-100"></p>
+		<div class="main-message">
+			<p>家でひとりの時</p>
+			<p>「自分の声で対応したくない･･･」</p>
+			<p>そんな時ありますよね？</p>
+		</div>
+		<div class="main-message mb-5">
+			<p>声・場面・トーンを組み合わせ</p>
+			<p>撃退ボイスをカスタマイズ</p>
+			<p>しましょう！</p>
+		</div>
+	</div>
 
-<div class="container">
-	<p class="h6 site-tour"><i class="fas fa-question-circle"></i>&nbsp;how to user?&nbsp;<small>(click here)</small></p>
-	<hr>
-	<div class="row category-type-area p-1">
-		<div class="col-12 d-flex align-items-center h5">category Type:</div>
-		<div class="col-12 btn-group btn-group-toggle " data-toggle="buttons">
-			<label class="btn btn-success">
-				<input type="radio" name="category" class="category_type_btn" data-type="tel">対迷惑電話
-			</label>
-			<label class="btn btn-primary">
-				<input type="radio" name="category" class="category_type_btn" data-type="sales">迷惑訪問
-			</label>
-			<label class="btn btn-danger">
-				<input type="radio" name="category" class="category_type_btn" data-type="delivery">置き配
-			</label>
+	<div class="container">
+		<div class="main">
+			<!-- タップ画像の背景を表示するダミーエリア -->
 		</div>
 	</div>
-	<div class="row voice-type-area p-1">
-		<div class="col-12 d-flex align-items-center h5">Voice Type:</div>
-		<div class="col-12 btn-group btn-group-toggle " data-toggle="buttons">
-			<div class="">
-				<button class="mt-1 voice_type_btn btn btn-success tel sales" data-type="00">対迷惑電話＆迷惑訪問【優しめVer.】</button>
-				<button class="mt-1 voice_type_btn btn btn-primary tel" data-type="01">対迷惑電話【冷静Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-danger tel" data-type="02">対迷惑電話【激怒Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-primary sales" data-type="03">対迷惑訪問【冷静Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-primary sales" data-type="05">対迷惑訪問【冷静・通報Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-danger sales" data-type="06">対迷惑訪問【激怒Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-primary sales" data-type="07">対迷惑訪問【割込冷静彼氏Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-danger sales" data-type="08">対迷惑訪問【割込激怒彼氏Ver.】</button>
-				<button class="mt-1 voice_type_btn btn btn-success delivery" data-type="09">対訪問【家主居ませんVer.】</button>
-				<button class="mt-1 voice_type_btn btn btn-success delivery" data-type="10">置き配</button>
-			</div>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-12 align-items-center h5">Voice：</div>
-	</div>
-	<div class="voice_btn_area p-1">
-		<div class="row mt-2 col-12 ">
-			<div class="col-12"><button type="button" class="btn btn-primary voice_btn" data-type-number="01" data-src="soft_01.mp3">はい。</button></div>
-		</div>
-		<div class="row mt-2 col-12 ">
-			<div class="col-12"><button type="button" class="btn btn-primary voice_btn" data-type-number="02" data-src="soft_02.mp3">間に合っているので大丈夫です。</button></div>
-		</div>
-		<div class="row mt-2 col-12 ">
-			<div class="col-12"><button type="button" class="btn btn-primary voice_btn" data-type-number="03" data-src="soft_03.mp3">失礼しまーす。</button></div>
-		</div>
-	</div>
+</div>
+<div class="container how-to-use step-1 pb-2">
+	<p class="text-center pt-4 title"><img src="{{ asset('/img/main/how_to_use.png') }}" alt="" srcset=""></p>
+	<p class="text-center h5">使い方</p>
+	<p class="text-center mt-3 step-text mx-2"><span>step1</span>声のタイプを選びましょう</p>
+	<ul class="row mx-1 mb-5">
+		<li class="col-6"><img src="{{ asset('/img/main/step1_01.png') }}" alt="" srcset="" class="w-100"></li>
+		<li class="col-6"><img src="{{ asset('/img/main/step1_02.png') }}" alt="" srcset="" class="w-100"></li>
+	</ul>
+</div>
+<div class="container how-to-use step-2 pb-2">
+	<p class="text-center pt-3 step-text mx-2"><span>step2</span>対応事例を選びましょう</p>
+	<ul class="row mx-1 mb-4">
+		<li class="col-6"><img src="{{ asset('/img/main/step2_01.png') }}" alt="" srcset="" class="w-100"></li>
+		<li class="col-6"><img src="{{ asset('/img/main/step2_02.png') }}" alt="" srcset="" class="w-100"></li>
+	</ul>
+	<ul class="row mx-1 mb-5">
+		<li class="col-6"><img src="{{ asset('/img/main/step2_03.png') }}" alt="" srcset="" class="w-100"></li>
+	</ul>
+</div>
+<div class="container how-to-use step-3 pb-2">
+	<p class="text-center pt-3 step-text mx-2"><span>step3</span>音声のトーン・口調を選びましょう</p>
+	<ul class="row mx-1 mb-4">
+		<li class="col-6"><img src="{{ asset('/img/main/step3_01.png') }}" alt="" srcset="" class="w-100"></li>
+		<li class="col-6"><img src="{{ asset('/img/main/step3_02.png') }}" alt="" srcset="" class="w-100"></li>
+	</ul>
+	<ul class="row mx-1 mb-5">
+		<li class="col-6"><img src="{{ asset('/img/main/step3_03.png') }}" alt="" srcset="" class="w-100"></li>
+	</ul>
+	<p class="mx-4"><img src="{{ asset('/img/main/submit.png') }}" alt="" srcset="" class="w-100"></p>
 </div>
 @endsection

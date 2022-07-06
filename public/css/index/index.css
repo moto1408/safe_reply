@@ -1,0 +1,56 @@
+.container .main{
+    background-image: url("./../../../img/main/top.jpg");
+    background-size: auto;
+    background-position: center;
+    background-size: 77rem;
+
+    height:820px;
+}
+.container.main-mask{
+    background-color: rgb(233 236 239 / 50%);
+    height:820px;
+}
+.container .main-mask p.main-title{
+    margin:auto;
+    text-align:center;
+    width:90%;
+    padding-top:12rem;
+}
+.container .main-mask p+div.main-message{
+    margin-top:18rem;
+    
+}
+.container .main-mask div+div.main-message{
+    margin-top:1rem;
+    
+}
+.container .main-mask div.main-message p{    
+    margin : 0;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.container .main p img{
+    width: 80%;
+}
+.step-1.how-to-use{
+    background-color:#fffaf4;
+}
+.step-2.how-to-use{
+    background-color:#fefff0;
+}
+.step-3.how-to-use{
+    background-color:#FFFFFF;
+}
+.how-to-use p.title{
+    margin-bottom: 0;
+}
+.step-text{
+    font-size: 1.2rem;
+}
+.step-text span{
+    font-size: 1.5rem;
+    color:#f35f1b;
+    font-weight:bold;
+    margin-right:0.5rem;
+}

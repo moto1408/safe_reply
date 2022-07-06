@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./../../font/NotoSansJP-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./../../font/NotoSansJP-Bold.woff") format("woff");
+}
+html body{
+    font-size:14px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+ul{
+    padding:0;
+}
+li{
+    list-style:none;
+}
+html body .container{
+    padding:0;
+}
+html body .container .row{
+    margin-right:0;
+}
+html body footer{
+    background-color:#fffaf4;
+}

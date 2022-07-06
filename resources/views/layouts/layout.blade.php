@@ -8,7 +8,8 @@
 <meta name="generator" content="">
 <title>サンプルイメージ{{-- 定数を代入するようにする --}}</title>
 
-
+<link href="{{ asset('/css/common/common.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('/css/common/header.css') }}" rel="stylesheet" type="text/css" />
 <!-- リリースするとき下記は消す！！ -->
 <meta name="robots" content="noindex">
 <!-- <scrpt src="vice/library/jquery-3.6.0.min.js"></scrpt> -->
@@ -22,7 +23,7 @@
 
 <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
-<body class="m-auto" style="width:400px">
+<body class="m-auto" style="max-width:500px;width:100%;">
 {{-- 共通ヘッダー --}}
 @include('layouts.parts.header')
 
