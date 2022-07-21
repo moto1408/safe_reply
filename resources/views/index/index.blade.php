@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-<link href="{{ asset('/css/index/index.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset(sprintf('/css/%s/%s.css',controllerName() , actionName()))}}" rel="stylesheet" type="text/css" />
 @section('contents')
 <div class="container position-relative">
 	<div class="container main-mask position-absolute top-0 start-0">

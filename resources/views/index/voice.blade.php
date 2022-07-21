@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+<link href="{{ asset(sprintf('/css/%s/%s.css',controllerName() , actionName()))}}" rel="stylesheet" type="text/css" />
 @section('contents')
 <!-- サイトツアー -->
 <script src="./js/anno/voice.js" type="text/javascript"></script>
