@@ -25,14 +25,14 @@
 <div class="container how-to-use step-1 pb-2">
 	<p class="text-center pt-4 title"><img src="{{ asset('/img/main/how_to_use.png') }}" alt="" srcset=""></p>
 	<p class="text-center h5">使い方</p>
-	<p class="text-center mt-3 step-text mx-2"><span>step1</span>声のタイプを選びましょう</p>
+	<p class="text-center mt-3 step-text mx-2 mb-3"><span>step1</span>声のタイプを選びましょう</p>
 	<ul class="row mx-1 mb-5">
 		<li class="col-6"><img src="{{ asset('/img/main/step1_01.png') }}" alt="" srcset="" class="w-100"></li>
 		<li class="col-6"><img src="{{ asset('/img/main/step1_02.png') }}" alt="" srcset="" class="w-100"></li>
 	</ul>
 </div>
 <div class="container how-to-use step-2 pb-2">
-	<p class="text-center pt-3 step-text mx-2"><span>step2</span>対応事例を選びましょう</p>
+	<p class="text-center pt-3 step-text mx-2 mb-3"><span>step2</span>対応事例を選びましょう</p>
 	<ul class="row mx-1 mb-4">
 		<li class="col-6"><img src="{{ asset('/img/main/step2_01.png') }}" alt="" srcset="" class="w-100"></li>
 		<li class="col-6"><img src="{{ asset('/img/main/step2_02.png') }}" alt="" srcset="" class="w-100"></li>
@@ -42,7 +42,7 @@
 	</ul>
 </div>
 <div class="container how-to-use step-3 pb-2">
-	<p class="text-center pt-3 step-text mx-2"><span>step3</span>音声のトーン・口調を選びましょう</p>
+	<p class="text-center pt-3 step-text mx-2 mb-3"><span>step3</span>音声のトーン・口調を選びましょう</p>
 	<ul class="row mx-1 mb-4">
 		<li class="col-6"><img src="{{ asset('/img/main/step3_01.png') }}" alt="" srcset="" class="w-100"></li>
 		<li class="col-6"><img src="{{ asset('/img/main/step3_02.png') }}" alt="" srcset="" class="w-100"></li>
